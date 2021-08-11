@@ -1,5 +1,10 @@
 import { assert } from '@ember/debug';
-import { createPactSkeleton, applyBody, serializeMatchingRules, applyMatchingRules } from './utils';
+import {
+  createPactSkeleton,
+  applyBody,
+  serializeMatchingRules,
+  applyMatchingRules
+} from './utils';
 
 const VERSION = 3;
 

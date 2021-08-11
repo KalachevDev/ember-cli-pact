@@ -1,6 +1,12 @@
 import { describe, it } from 'mocha';
 import { setupTest } from 'ember-mocha';
-import { setupPact, given, interaction, getProvider, specifyMatchingRules } from 'ember-cli-pact';
+import {
+  setupPact,
+  given,
+  interaction,
+  getProvider,
+  specifyMatchingRules
+} from 'ember-cli-pact';
 import { assert } from 'chai';
 import { regex } from 'ember-cli-pact/matchers';
 import ajax from '../helpers/ajax';

@@ -1,10 +1,13 @@
 import { assert } from '@ember/debug';
 import { run } from '@ember/runloop';
-import { getContext } from 'ember-test-helpers';
+import { getContext } from '@ember/test-helpers';
 import { Promise } from 'rsvp';
 
 import Interaction from 'ember-cli-pact/-private/interaction';
-import { loadProviderStates, lookupProviderState } from 'ember-cli-pact/-private/provider-states';
+import {
+  loadProviderStates,
+  lookupProviderState
+} from 'ember-cli-pact/-private/provider-states';
 
 export default class MockProvider {
   constructor(config) {
@@ -91,7 +94,6 @@ export default class MockProvider {
    *
    * @public
    * @method specifyInteraction
-   * @param {object} context the `this` value for the perform callback
    * @param {function} perform the callback to be invoked to capture this interaction
    */
   specifyInteraction(perform) {

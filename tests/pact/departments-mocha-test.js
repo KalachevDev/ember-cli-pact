@@ -1,6 +1,11 @@
 import { describe, it, beforeEach } from 'mocha';
 import { setupTest } from 'ember-mocha';
-import { setupPact, given, getProvider, interaction } from 'ember-cli-pact';
+import {
+  setupPact,
+  given,
+  getProvider,
+  interaction
+} from 'ember-cli-pact';
 import { assert } from 'chai';
 
 describe('Pact | Departments', function() {

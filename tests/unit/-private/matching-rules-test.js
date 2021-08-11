@@ -1,6 +1,16 @@
 import { module, test } from 'qunit';
 import { serializeMatchingRules } from 'ember-cli-pact/-private/serialization/utils';
-import { type, equality, regex, integer, decimal, allOf, anyOf, arrayElements, hashValues } from 'ember-cli-pact/matchers';
+import {
+  type,
+  equality,
+  regex,
+  integer,
+  decimal,
+  allOf,
+  anyOf,
+  arrayElements,
+  hashValues
+} from 'ember-cli-pact/matchers';
 
 module('Unit | matching-rules', function() {
   test('type()', function(assert) {

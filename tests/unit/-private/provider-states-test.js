@@ -1,5 +1,9 @@
 import { module, test } from 'qunit';
-import { lookupProviderState, registerProviderState, loadProviderStates } from 'ember-cli-pact/-private/provider-states';
+import {
+  lookupProviderState,
+  registerProviderState,
+  loadProviderStates
+} from 'ember-cli-pact/-private/provider-states';
 import config from 'dummy/config/environment';
 
 module('Unit | provider-states', function(hooks) {

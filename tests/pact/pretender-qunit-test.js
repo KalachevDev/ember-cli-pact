@@ -1,6 +1,11 @@
 import { test, module } from 'qunit';
 import { setupTest } from 'ember-qunit';
-import { setupPact, given, interaction, getProvider } from 'ember-cli-pact';
+import {
+  setupPact,
+  given,
+  interaction,
+  getProvider
+} from 'ember-cli-pact';
 import { regex } from 'ember-cli-pact/matchers';
 import ajax from '../helpers/ajax';
 

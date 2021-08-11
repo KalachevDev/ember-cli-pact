@@ -1,6 +1,11 @@
 import { test, module } from 'qunit';
 import { setupTest } from 'ember-qunit';
-import { setupPact, given, getProvider, interaction } from 'ember-cli-pact';
+import {
+  setupPact,
+  given,
+  getProvider,
+  interaction
+} from 'ember-cli-pact';
 
 module('Pact | Departments', function(hooks) {
   setupTest(hooks);
